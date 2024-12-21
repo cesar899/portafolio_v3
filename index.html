@@ -15,16 +15,35 @@
     <link href="assets/css/style.css" rel="stylesheet">
   </head>   
   <body>
+    <style>
+    div.service-box {
+        -webkit-transform: scale(1, 1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1, 1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }
+
+    div.service-box:hover {
+        -webkit-transform: scale(1.12, 1.12);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 100ms;
+        -moz-transform: scale(1.12, 1.12);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 100ms;
+    }
+</style>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <nav id="navbar" class="navbar mt-3">
           <ul>
-            <li><a class="nav-link scrollto active" href="#home">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#skills">skills</a></li>
-            <li><a class="nav-link scrollto " href="#projects">projects</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto active" href="#home">Inicio</a></li>
+            <li><a class="nav-link scrollto" href="#about">Acerca De</a></li>
+            <li><a class="nav-link scrollto" href="#skills">Habilidades</a></li>
+            <li><a class="nav-link scrollto " href="#projects">proyectos</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
           </ul>
           <i  id="icon-movil" class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -41,11 +60,12 @@
       <div class="hero-content display-table">
         <div class="table-cell">
           <div class="container">
-            <p class="display-6 color-d">Hello, world!</p>
-            <h1 class="hero-title mb-4">I am Cesar Montevideo</h1>
+            <p class="display-6 color-d">hola, Mundo!!</p>
+            <h1 class="hero-title mb-4">Yo soy Cesar Montevideo</h1>
             <p class="hero-subtitle"><span class="typed" data-typed-items="Developer, Freelancer"></span></p>
             <a href="./assets/cesar-montevideo-cv.pdf" aria-label="download" download="download-file.pdf">
               <button class="button-two" ><span>Download CV</span></button>
+
             </a>    
           </div>
         </div>
@@ -71,10 +91,10 @@
                       <div class="skill-mf">
                         <div class=" col-md-7">
                           <div class="about-info" >
-                            <p><span class="title-s"  id="card-font">Name : </span><p><span style="padding-left: 10px;">Cesar Montevideo</span></p>
-                            <p><span class="title-s" id="card-font">Profile : </span><p><span style="padding-left: 10px;">Front-end Developer</span></p>
-                            <p><span class="title-s" id="card-font">Email : </span><p><span style="padding-left: 10px;">montevideocesar599@gmail.com</span></p>
-                            <p><span class="title-s" id="card-font">Phone : </span><p><span style="padding-left: 10px;">+58 424-356-1272</span></p>
+                            <p><span class="title-s"  id="card-font">Nombre : </span><p><span style="padding-left: 10px;">Cesar Montevideo</span></p>
+                            <p><span class="title-s" id="card-font">Perfil : </span><p><span style="padding-left: 10px;">Front-end Developer</span></p>
+                            <p><span class="title-s" id="card-font">Correo : </span><p><span style="padding-left: 10px;">montevideocesar599@gmail.com</span></p>
+                            <p><span class="title-s" id="card-font">Telefono : </span><p><span style="padding-left: 10px;">+58 424-356-1272</span></p>
                           </div>
                         </div>
                       </div>
@@ -85,7 +105,7 @@
                     <div class="about-me pt-4 pt-md-0">
                       <div class="title-box-2">
                         <p class="title-left "id="card-font" >
-                          About me
+                          Informacion
                         </p>
                       </div>
                       <p class="lead" >
@@ -93,8 +113,8 @@
                       </p>
                       <hr>
                       <p class="lead">
-                        I continually continue to learn and acquire new skills based on current and future demands and technological trends in the field of development in general.
-                        Passionate about the work I do, offering in each project total attention, dedication, personalization and quality to the client.
+                        Continuamente sigo aprendiendo y adquiriendo nuevas habilidades en base a las demandas actuales, futuras y las tendencias tecnológicas en el campo del desarrollo en general.
+                        Apasionado por el trabajo que hago, ofreciendo en cada proyecto total atención, dedicación, personalización y calidad al cliente.
                       </p>
                     </div>
                   </div>
@@ -113,7 +133,7 @@
             <div class="col-sm-12">
               <div class="title-box text-center">
                 <p class="title-a">
-                  Skills
+                  Habilidades
                 </p>
                 <div class="line-mf"></div>
               </div>
@@ -212,7 +232,7 @@
             <div class="col-sm-12">
               <div class="title-box text-center">
                 <h3 class="title-a">
-                  Projects
+                  Proyectos
                 </h3>
                 <div class="line-mf"></div>
               </div>
@@ -229,8 +249,8 @@
                     <div class="col-sm-8">
                       <h2 class="w-title">DevJobs</h2>
                       <div class="w-more">
-                        <span class="w-category">Web Design</span> / <span class="w-date">07 Dic. 2021</span>
-                      </div>
+                        <span class="w-ctegory">Diseño Web (No Disponible)</span> <!--/ <span class="w-date">07 Dic. 2021</span> -->
+                     </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="mt-4">
@@ -310,7 +330,7 @@
                     <div class="col-md-12 align-items-center">
                       <div class="title-box-2">
                         <p class="title-left ">
-                          Contact
+                          Contacto
                         </p>
                       </div>
                       
@@ -320,32 +340,32 @@
                             <div class="col-md-12 mb-3 ">
                               <div class="form-group">
                                 <input type="hidden" name="_template" value="box">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Ingresa Tu Nombre" required>
                               </div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu Correo" required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="Subject" class="form-control" name="Subject" id="Subject" placeholder="Subject" required > 
+                              <input type="Subject" class="form-control" name="Subject" id="Subject" placeholder="ingresa tu Sujeto" required > 
                             </div>   
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Cargando</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button  button-big button-rouded">Send Message</button>
+                            <button type="submit" class="button  button-big button-rouded">Enviar mensaje</button>
                           </div>
                         </form>
                       </div>
